@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : CLE
+Version: D-2010.03-SP5
+Date   : Tue Mar 20 23:02:05 2018
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/nfs_cad/lib/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db)
+
+Number of ports:               45
+Number of nets:               857
+Number of cells:              727
+Number of references:          75
+
+Combinational area:       4048.298980
+Noncombinational area:    13047.913836
+Net Interconnect area:    112233.926422
+
+Total cell area:          17096.212815
+Total area:               129330.139237
+1

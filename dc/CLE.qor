@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : qor
+Design : CLE
+Version: D-2010.03-SP5
+Date   : Tue Mar 20 23:02:06 2018
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              20.00
+  Critical Path Length:          7.66
+  Critical Path Slack:           1.53
+  Critical Path Clk Period:     10.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          4
+  Hierarchical Port Count:        102
+  Leaf Cell Count:                775
+  Buf/Inv Cell Count:             116
+  CT Buf/Inv Cell Count:            0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     4048.298980
+  Noncombinational Area: 13047.913836
+  Net Area:             112233.926422
+  -----------------------------------
+  Cell Area:             17096.212815
+  Design Area:          129330.139237
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           901
+  Nets With Violations:             0
+  -----------------------------------
+
+
+  Hostname: ideal125
+
+  Compile CPU Statistics
+  -----------------------------------
+  Resource Sharing:              0.08
+  Logic Optimization:            0.05
+  Mapping Optimization:          2.29
+  -----------------------------------
+  Overall Compile Time:          5.02
+
+1

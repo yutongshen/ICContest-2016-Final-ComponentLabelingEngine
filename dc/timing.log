@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CLE
+Version: D-2010.03-SP5
+Date   : Tue Mar 20 23:02:05 2018
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: times_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: times_reg_20_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CLE                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  times_reg_0_/CK (EDFFTRX1)               0.00       0.50 r
+  times_reg_0_/Q (EDFFTRX1)                0.63       1.13 r
+  add_76_S2/A[0] (CLE_DW01_inc_3)          0.00       1.13 r
+  add_76_S2/U1_1_1/CO (ADDHXL)             0.36       1.49 r
+  add_76_S2/U1_1_2/CO (ADDHXL)             0.35       1.84 r
+  add_76_S2/U1_1_3/CO (ADDHXL)             0.35       2.19 r
+  add_76_S2/U1_1_4/CO (ADDHXL)             0.35       2.55 r
+  add_76_S2/U1_1_5/CO (ADDHXL)             0.35       2.90 r
+  add_76_S2/U1_1_6/CO (ADDHXL)             0.35       3.25 r
+  add_76_S2/U1_1_7/CO (ADDHXL)             0.35       3.61 r
+  add_76_S2/U1_1_8/CO (ADDHXL)             0.35       3.96 r
+  add_76_S2/U1_1_9/CO (ADDHXL)             0.35       4.31 r
+  add_76_S2/U1_1_10/CO (ADDHXL)            0.35       4.67 r
+  add_76_S2/U1_1_11/CO (ADDHXL)            0.35       5.02 r
+  add_76_S2/U1_1_12/CO (ADDHXL)            0.35       5.37 r
+  add_76_S2/U1_1_13/CO (ADDHXL)            0.35       5.73 r
+  add_76_S2/U1_1_14/CO (ADDHXL)            0.35       6.08 r
+  add_76_S2/U1_1_15/CO (ADDHXL)            0.35       6.43 r
+  add_76_S2/U1_1_16/CO (ADDHXL)            0.35       6.79 r
+  add_76_S2/U1_1_17/CO (ADDHXL)            0.35       7.14 r
+  add_76_S2/U1_1_18/CO (ADDHXL)            0.35       7.49 r
+  add_76_S2/U1_1_19/CO (ADDHXL)            0.33       7.82 r
+  add_76_S2/U1/Y (XOR2XL)                  0.33       8.16 f
+  add_76_S2/SUM[20] (CLE_DW01_inc_3)       0.00       8.16 f
+  times_reg_20_/D (EDFFTRX1)               0.00       8.16 f
+  data arrival time                                   8.16
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  times_reg_20_/CK (EDFFTRX1)              0.00      10.40 r
+  library setup time                      -0.72       9.68
+  data required time                                  9.68
+  -----------------------------------------------------------
+  data required time                                  9.68
+  data arrival time                                  -8.16
+  -----------------------------------------------------------
+  slack (MET)                                         1.53
+
+
+1
